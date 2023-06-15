@@ -10,7 +10,7 @@ export default function Home() {
         <h2>todo</h2>
       </div>
 
-      <button className='click animate-bounce'>Login</button>
+      <Link href={'/'} className='click animate-bounce'>Login</Link>
     </main>
   )
 }

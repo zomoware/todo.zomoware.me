@@ -5,7 +5,7 @@
 
 @layer components {
   body {
-    @apply bg-black text-white layout flex-col justify-between min-h-screen w-full gap-0 p-0;
+    @apply bg-slate-100 dark:bg-slate-950 text-black dark:text-white layout flex-col justify-between min-h-screen w-full gap-0 p-0;
   }
 
   h1 {
@@ -30,11 +30,11 @@
 
 
   .theme {
-    @apply bg-zinc-900 border-zinc-800 text-white layout;
+    @apply bg-slate-200 border-slate-300 dark:border-slate-700 dark:bg-slate-900 layout;
   }
 
 
   .click {
-    @apply theme rounded-full focus:outline focus:outline-4 focus:outline-offset-4 focus:outline-zinc-800;
+    @apply theme bg-slate-300 dark:bg-slate-700 focus:outline-slate-300 focus:dark:outline-slate-700 rounded-full focus:outline focus:outline-2 focus:outline-offset-4;
   }
 }

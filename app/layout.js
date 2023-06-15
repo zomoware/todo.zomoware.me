@@ -2,14 +2,15 @@ import './globals.css';
 
 
 export const metadata = {
-  title: 'zomoware',
-  description: 'fresh apps',
+  title: 'zomoware todo',
+  description: '',
 }
 
-export default function RootLayout({children}) {
+
+export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
-      <body className='layout min-h-screen w-full gap-8 p-0'>
+    <html lang="en">
+      <body>
         {children}
       </body>
     </html>

@@ -1,20 +1,12 @@
-import NavBar from '../../components/navbar';
-
-import {Plus} from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 
 export default function Dashboard() {
   return (
-    <main className='layout flex-col w-full max-w-xl p-0'>
-      <NavBar/>
-
-      <div className=''>
-      </div>
-
-      <div className='layout w-full fixed bottom-0'>
-        <input className='click w-full max-w-xl' placeholder='Add New'/>
-        <button className='click'><Plus/></button>
-      </div>
+    <main className='layout min-h-screen w-full gap-0 p-0'>
+        <div className=''></div>
+        <div className=''></div>
     </main>
   )
 }

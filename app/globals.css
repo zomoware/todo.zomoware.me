@@ -38,3 +38,8 @@
     @apply theme bg-zinc-200 dark:bg-zinc-800 focus:outline-zinc-200 focus:dark:outline-zinc-800 rounded-full focus:outline focus:outline-2 focus:outline-offset-4;
   }
 }
+
+
+::-webkit-scrollbar {
+  display: none;
+}

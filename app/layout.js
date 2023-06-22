@@ -2,7 +2,7 @@ import './globals.css';
 
 
 export const metadata = {
-  title: 'zomoware todo',
+  title: 'zomoware task',
   description: '',
 }
 

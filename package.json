@@ -9,13 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@passageidentity/passage-elements": "^1.9.1",
-    "@supabase/auth-helpers-nextjs": "^0.7.2",
-    "@supabase/supabase-js": "^2.25.0",
     "autoprefixer": "10.4.14",
-    "framer-motion": "^10.12.16",
-    "lucide-react": "^0.244.0",
-    "next": "13.4.5",
+    "framer-motion": "^10.12.17",
+    "lucide-react": "^0.252.0",
+    "next": "13.4.7",
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",

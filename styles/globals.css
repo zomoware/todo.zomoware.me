@@ -5,7 +5,7 @@
 
 @layer components {
     body {
-        @apply bg-white text-black;
+        @apply bg-stone-100 text-black dark:bg-stone-900 dark:text-white;
     }
 
 
@@ -31,6 +31,6 @@
 
 
     .click {
-        @apply layout rounded-full bg-green-500 text-white;
+        @apply bg-stone-200 dark:bg-stone-800 rounded-xl layout;
     }
 }

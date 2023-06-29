@@ -4,7 +4,7 @@ import AppLayout from '../../../components/applayout';
 export default function Search() {
   return (
     <AppLayout>
-      <h1>search</h1>
+      <h2 className='font-bold'>search</h2>
     </AppLayout>
   )
 }

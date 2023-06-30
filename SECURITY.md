@@ -14,7 +14,14 @@ we will make sure to develop and maintain our security in our products and servi
 ### the community part
 
 please refer to report any vulnerability to our team immediately using the tag **[SECURITY]** or **[الأمان و الحماية]**,
-and we will make sure to get back to you as soon as we can within 24 hours, thanks.
+and we will make sure to get back to you as soon as we can within 24 hours.
+
+please include the listed information below to make us better understand were the vulnerability lys, thanks.
+
+  * Type of issue / vulnerability.
+  * Instructions to reproduce the issue / vulnerability.
+  * Proof-of-concept or exploit code (**if possible**).
+  * Impact of the issue, like how an attacker might exploit it.
 
 
 # Preferred Languages

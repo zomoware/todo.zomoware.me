@@ -17,8 +17,8 @@ export default function Home() {
 
 
       <div className='layout p-0'>
-        <Link href={'/dashboard'} className='click'>Log In</Link>
-        <Link href={'/dashboard'} className='click'>Sign Up</Link>
+        <Link href={'/login'} className='click'>login</Link>
+        <Link href={'/signup'} className='click'>signup</Link>
       </div>
     </main>
   )

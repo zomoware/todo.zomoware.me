@@ -1,5 +1,5 @@
 <div class="layout flex-col h-full w-full p-0">
-  <div class="theme bg-transparent rounded-xl border-2 layout flex-col justify-evenly h-3/6 w-80">
+  <div class="theme bg-transparent rounded-3xl border-2 layout flex-col justify-evenly h-3/6 w-80">
     <h2 class="font-bold">login</h2>
 
     <form class="layout flex-col">

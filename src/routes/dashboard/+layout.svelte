@@ -27,7 +27,7 @@
   </div>
 
   {#if show}
-    <div transition:fly={{ y: 20, duration: 200}} class="theme bg-white dark:bg-black border-2 rounded-xl layout flex-col m-3 fixed top-20 right-0 z-10">
+    <div transition:fly={{ y: 20, duration: 200}} class="theme bg-white dark:bg-black border-2 rounded-3xl layout flex-col m-3 fixed top-20 right-0 z-10">
       <p class="font-bold">user.name</p>
 
 

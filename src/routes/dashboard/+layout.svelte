@@ -8,13 +8,19 @@
     show = !show;
   }
 
+
+  function applock() {
+    show = !show;
+    console.log("app.ui.status.lock = true");
+  }
+
   function signout() {
     show = !show;
     console.log("user.signout.function");
   }
 
 
-  import {Plus, Search, Fingerprint, Home, CheckCircle2, KanbanSquare, Settings, LogOut} from 'lucide-svelte';
+  import {Plus, Search, Fingerprint, Home, CheckCircle2, KanbanSquare, Lock, Settings, LogOut} from 'lucide-svelte';
   import {fly} from 'svelte/transition';
 </script>
 
@@ -22,7 +28,7 @@
 <main class="layout flex-col min-h-screen w-screen p-0">
   <div class="theme bg-white dark:bg-black border-b-2 layout h-20 w-full p-0 fixed top-0 inset-0 z-10">
     <button class="click"><Plus/></button>
-    <button class="click"><Search/></button>
+    <input id='search' type='text' placeholder='search' class='click'/>
     <button on:click={toggle} class="click"><Fingerprint/></button>
   </div>
 
@@ -50,6 +56,12 @@
         <Settings class="fill-black/30 dark:fill-white/30 w-10"/>
         <p class="w-full">settings</p>
       </a>
+
+
+      <button  on:click={applock} class="click justify-evenly w-40">
+        <Lock class="fill-black/30 dark:fill-white/30 w-10"/>
+        <p class="w-full">app lock</p>
+      </button>
 
       <button  on:click={signout} class="click justify-evenly w-40">
         <LogOut class="fill-black/30 dark:fill-white/30 w-10"/>
